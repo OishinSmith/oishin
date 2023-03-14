@@ -29,7 +29,10 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./assets/js/main.js",
+              "./assets/js/pace.js"
+            ]
           },
           "configurations": {
             "production": {
