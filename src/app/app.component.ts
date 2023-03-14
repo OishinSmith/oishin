@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-declare var main: any;
 
 @Component({
   selector: 'app-root',
@@ -8,8 +7,4 @@ declare var main: any;
 })
 export class AppComponent {
   title = 'oishinsmith';
-
-  ngAfterViewInit() {
-    main();
-  }
 }

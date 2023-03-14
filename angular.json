@@ -30,8 +30,6 @@
               "src/styles.css"
             ],
             "scripts": [
-              "./assets/js/main.js",
-              "./assets/js/pace.js"
             ]
           },
           "configurations": {
