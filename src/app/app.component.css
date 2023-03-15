@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 :host {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 14px;
@@ -291,7 +291,6 @@
       visibility: hidden;
     }
   }
-=======
 /* OISHIN - BASE */
 
 /**
@@ -1206,9 +1205,6 @@ textarea {
  *
  * ------------------------------------------------------------------- 
  */
- @import url("fonts.css");
- @import url("font-awesome/css/font-awesome.min.css");
- @import url("micons/micons.css");
  
  
  /** 
@@ -4552,4 +4548,3 @@ img.mfp-img {
 }
 
 /*# sourceMappingURL=vendor.css.map */
->>>>>>> Stashed changes
