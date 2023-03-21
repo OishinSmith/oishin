@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild, ElementRef  } from '@angular/core';
 import { ViewportScroller } from '@angular/common';
 declare var $: any;
 
@@ -9,6 +9,9 @@ declare var $: any;
 })
 export class AppComponent {
   title = 'oishinsmith';
+  @ViewChild('dots') dotsRef!: ElementRef;
+  @ViewChild('more') moreRef!: ElementRef;
+  @ViewChild('myBtn') myBtnRef!: ElementRef;
 
   constructor(private viewportScroller: ViewportScroller) {}
 

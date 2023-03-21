@@ -4461,3 +4461,91 @@ img.mfp-img {
 }
 
 /*# sourceMappingURL=vendor.css.map */
+#more {display: none;}
+#more1 {display: none;}
+#more2 {display: none;}
+#more3 {display: none;}
+#more4 {display: none;}
+#more5 {display: none;}
+
+.techname,
+a.techname,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+	display: unset !important;
+	font-family: "poppins-bold", sans-serif;
+	font-size: 1.4rem;
+	text-transform: uppercase;
+	letter-spacing: .3rem;
+    text-align: center;
+	padding: 2px;
+	margin: 0 .3rem 1.2rem 0;
+	background: #d8d8d8;
+	color: #313131;
+    background-color: unset !important;
+	text-decoration: none;
+	cursor: pointer;
+	text-align: center;
+	white-space: nowrap;
+	border: none;
+    line-height: unset !important; 
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.techname:hover,
+a.techname:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.techname:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+	background: #bebebe;
+	color: #0dcaf0;
+	outline: 0;
+}
+.techname.button-primary,
+a.techname.button-primary,
+button.techname-primary,
+input[type="submit"].techname-primary,
+input[type="reset"].techname-primary,
+input[type="button"].techname-primary {
+	background: #313131;
+	color: #FFFFFF;
+}
+.techname.techname-primary:hover,
+a.techname.techname-primary:hover,
+button.techname-primary:hover,
+input[type="submit"].techname-primary:hover,
+input[type="reset"].techname-primary:hover,
+input[type="button"].techname-primary:hover,
+.techname.techname-primary:focus,
+button.techname-primary:focus,
+input[type="submit"].techname-primary:focus,
+input[type="reset"].techname-primary:focus,
+input[type="button"].techname-primary:focus {
+	background: #1f1f1f;
+}
+button.full-width, .techname.full-width {
+	width: 100%;
+	margin-right: 0;
+}
+button.medium, .techname.medium {
+	height: 5.7rem !important;
+	line-height: 5.7rem !important;
+	padding: 0 1.8rem !important;
+}
+button.large, .techname.large {
+	height: 6rem !important;
+	line-height: 6rem !important;
+	padding: 0rem 3rem !important;
+}
