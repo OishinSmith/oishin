@@ -4549,3 +4549,11 @@ button.large, .techname.large {
 	line-height: 6rem !important;
 	padding: 0rem 3rem !important;
 }
+
+.tech-used{
+    color: #313131;
+}
+
+.remove-margin{
+    margin-bottom: 0px;
+}
