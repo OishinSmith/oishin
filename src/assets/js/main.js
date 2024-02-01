@@ -292,18 +292,15 @@
 
 })(jQuery);
 
-function showMore(dots, more, myBtn) {
-	var dots = document.getElementById(dots);
+function showMore(more, myBtn) {
 	var moreText = document.getElementById(more);
 	var btnText = document.getElementById(myBtn);
-  
-	if (dots.style.display === "none") {
-	  dots.style.display = "inline";
-	  btnText.innerHTML = "read more";
-	  moreText.style.display = "none";
-	} else {
-	  dots.style.display = "none";
+	console.log(moreText.style.display);
+	if (moreText.style.display === "" || moreText.style.display === "none") {
 	  btnText.innerHTML = "read less";
 	  moreText.style.display = "inline";
+	} else {
+	  btnText.innerHTML = "read more";
+	  moreText.style.display = "none";
 	}
   }

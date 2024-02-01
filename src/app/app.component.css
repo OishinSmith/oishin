@@ -1325,6 +1325,16 @@ textarea {
      line-height: 1.8;
      color: #888888;
  }
+
+ .lilead li{
+	font-family: "lora-regular", serif;
+	font-size: 1.4rem;
+	line-height: 1.8;
+	color: #585858;
+	display: list-item;
+	list-style: disc;
+}
+ 
  @media only screen and (max-width:768px) {
      p.lead {
          font-size: 1.7rem;
